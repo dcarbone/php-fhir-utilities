@@ -1,0 +1,23 @@
+{
+    "name": "php-fhir/utilities",
+    "description": "Utility classes for PHP FHIR",
+    "type": "library",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/dcarbone/php-fhir-utilities.git",
+    "authors": [
+        {
+            "name": "Daniel Carbone",
+            "email": "daniel.p.carbone@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "phpdocumentor/reflection-docblock": "2.0.*",
+        "dcarbone/file-object-plus": "0.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FHIR\\Utilities\\": "src/"
+        }
+    }
+}
