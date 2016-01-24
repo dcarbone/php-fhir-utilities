@@ -1,2 +1,3 @@
-# php-fhir-utilities
-Utility classes for PHP FHIR
+# No longer maintained
+
+This library will no longer be maintained in favor of [PHPFHIR](https://github.com/dcarbone/php-fhir)
